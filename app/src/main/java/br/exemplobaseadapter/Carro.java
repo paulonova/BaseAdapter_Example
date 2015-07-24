@@ -3,6 +3,8 @@ package br.exemplobaseadapter;
 public class Carro {
 	private String modelo;
 	private String marca;
+
+
 	public String getModelo() {
 		return modelo;
 	}
@@ -15,7 +17,8 @@ public class Carro {
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
-	
+
+    // Method to get images..
 	public int getCarroImagem(int position){
 		switch(position){
 			case 0:
